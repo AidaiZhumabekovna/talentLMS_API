@@ -1,0 +1,3455 @@
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 12:43:25","last_updated_timestamp":"1680255805","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Response contains Aidai
+Perform get response api/v1/usersetstatus/user_id:1,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:7,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:4,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 12:43:25","last_updated_timestamp":"1680255805","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Response contains Aidai
+Perform get response api/v1/usersetstatus/user_id:1,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:7,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:4,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 12:43:25","last_updated_timestamp":"1680255805","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Response contains Aidai
+Perform get response api/v1/usersetstatus/user_id:1,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:7,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:4,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 12:43:25","last_updated_timestamp":"1680255805","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/usersetstatus/user_id:1,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:7,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:4,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 12:43:25","last_updated_timestamp":"1680255805","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 12:43:25","last_updated_timestamp":"1680255805","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"inactive","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 13:02:02","last_updated_timestamp":"1680256922","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/usersetstatus/user_id:1,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:7,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:4,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"inactive","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 13:12:39","last_updated_timestamp":"1680257559","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/isuseronline/?user_id=1
+Response is: 
+{"online":true}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/isuseronline/?user_id=7
+Response is: 
+{"online":false}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/isuseronline/?user_id=4
+Response is: 
+{"online":false}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/isuseronline/?user_id=6
+Response is: 
+{"online":false}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Users online: 1, online user name : Aidai
+Perform get response api/v1/users/?email=aidaikurmanbekova5@gmail.com
+Response is: 
+{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231","courses":[{"id":"124","name":"Advanced Features of TalentLMS (002)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:124,user_id:1"},{"id":"46","name":"Content and TalentLMS (003)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:46,user_id:1"},{"id":"126","name":"course name (course code)","role":"instructor","enrolled_on":"24\/03\/2023, 17:20:10","enrolled_on_timestamp":"1679667610","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:126,user_id:1"},{"id":"113","name":"Employee Training 101 (005)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:113,user_id:1"},{"id":"122","name":"Getting Started With eLearning (004)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:122,user_id:1"},{"id":"123","name":"Introduction to TalentLMS (001)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:123,user_id:1"},{"id":"125","name":"What is TalentLibrary? (006)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:125,user_id:1"}],"branches":[],"groups":[],"certifications":[],"badges":[]}
+200
+Perform get response api/v1/users/?email=julius.emmerich@gmail.com
+Response is: 
+{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967","courses":[],"branches":[],"groups":[],"certifications":[],"badges":[]}
+200
+Perform get response api/v1/users/?email=jaka6565@example.com
+Response is: 
+{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194","courses":[],"branches":[],"groups":[],"certifications":[],"badges":[]}
+200
+Perform get response api/v1/users/?email=dsdsds23232@example.com
+Response is: 
+{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"inactive","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 13:12:39","last_updated_timestamp":"1680257559","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366","courses":[],"branches":[],"groups":[],"certifications":[],"badges":[]}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/usersetstatus/user_id:1,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:7,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:4,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"inactive","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 13:12:39","last_updated_timestamp":"1680257559","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/isuseronline/?user_id=1
+Response is: 
+{"online":true}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/isuseronline/?user_id=7
+Response is: 
+{"online":false}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/isuseronline/?user_id=4
+Response is: 
+{"online":false}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/isuseronline/?user_id=6
+Response is: 
+{"online":false}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Users online: 1, online user name : Aidai
+Perform get response api/v1/users/?email=aidaikurmanbekova5@gmail.com
+Response is: 
+{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231","courses":[{"id":"124","name":"Advanced Features of TalentLMS (002)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:124,user_id:1"},{"id":"46","name":"Content and TalentLMS (003)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:46,user_id:1"},{"id":"126","name":"course name (course code)","role":"instructor","enrolled_on":"24\/03\/2023, 17:20:10","enrolled_on_timestamp":"1679667610","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:126,user_id:1"},{"id":"113","name":"Employee Training 101 (005)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:113,user_id:1"},{"id":"122","name":"Getting Started With eLearning (004)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:122,user_id:1"},{"id":"123","name":"Introduction to TalentLMS (001)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:123,user_id:1"},{"id":"125","name":"What is TalentLibrary? (006)","role":"instructor","enrolled_on":"17\/03\/2023, 16:43:43","enrolled_on_timestamp":"1679060623","completed_on":"","completed_on_timestamp":null,"completion_status":"not_attempted","completion_status_formatted":"Not started","completion_percentage":"0","expired_on":"","expired_on_timestamp":null,"total_time":null,"total_time_seconds":0,"last_accessed_unit_url":"https:\/\/nomad.talentlms.com\/course\/lastaccessedunit\/course_id:125,user_id:1"}],"branches":[],"groups":[],"certifications":[],"badges":[]}
+200
+Perform get response api/v1/users/?email=julius.emmerich@gmail.com
+Response is: 
+{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967","courses":[],"branches":[],"groups":[],"certifications":[],"badges":[]}
+200
+Perform get response api/v1/users/?email=jaka6565@example.com
+Response is: 
+{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194","courses":[],"branches":[],"groups":[],"certifications":[],"badges":[]}
+200
+Perform get response api/v1/users/?email=dsdsds23232@example.com
+Response is: 
+{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"inactive","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 13:12:39","last_updated_timestamp":"1680257559","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366","courses":[],"branches":[],"groups":[],"certifications":[],"badges":[]}
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/usersetstatus/user_id:1,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:7,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:4,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"inactive","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 13:12:39","last_updated_timestamp":"1680257559","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/usersetstatus/user_id:1,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:7,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:4,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:6,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Status: 
+================== END API TEST===============
+[TestNG] Running:
+  /Users/aidai/Library/Caches/JetBrains/IdeaIC2022.2/temp-testng-customsuite.xml
+
+================== START API TEST===============
+Perform get response api/v1/users
+Response is: 
+[{"id":"1","login":"aidaikurmanbekova5","first_name":"Aidai","last_name":"Aidai","email":"aidaikurmanbekova5@gmail.com","restrict_email":"0","user_type":"SuperAdmin","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"17\/03\/2023, 16:43:43","last_updated":"28\/03\/2023, 13:05:28","last_updated_timestamp":"1679997928","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:7c4jm74755vwxd1qki1j16790606231"},{"id":"7","login":"Marlo","first_name":"Israel","last_name":"Dotty","email":"julius.emmerich@gmail.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:46:36","last_updated":"24\/03\/2023, 11:46:36","last_updated_timestamp":"1679647596","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:yk8rhs2x93cmph521hdb16796475967"},{"id":"4","login":"jaka656532","first_name":"Jaka","last_name":"Smith","email":"jaka6565@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"active","deactivation_date":"","level":"1","points":"0","created_on":"23\/03\/2023, 17:35:19","last_updated":"23\/03\/2023, 17:35:19","last_updated_timestamp":"1679582119","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:8kspef72iiqpv97cykxt16795821194"},{"id":"6","login":"dsdsds23232","first_name":"Kanym","last_name":"Smith","email":"dsdsds23232@example.com","restrict_email":"0","user_type":"Learner-Type","timezone":"(GMT +03:00) Moscow, St. Petersburg, Volgograd","language":"English","status":"inactive","deactivation_date":"","level":"1","points":"0","created_on":"24\/03\/2023, 11:23:56","last_updated":"31\/03\/2023, 13:12:39","last_updated_timestamp":"1680257559","avatar":"https:\/\/d3j0t7vrtr92dk.cloudfront.net\/images\/default_user.png","bio":null,"login_key":"https:\/\/nomad.talentlms.com\/index\/autologin\/key:pgxyx368wi4nmxp48i8u16796462366"}]
+200
+Started assert response ..... 
+Status code is correct: Actual 200 Expected 200
+Perform get response api/v1/usersetstatus/user_id:user_id,status:1
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Perform get response api/v1/usersetstatus/user_id:status,status:active
+Response is: 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>The page you're looking for can't be found</title>
+
+		<style>
+			body{
+				margin: 0;
+			}
+
+			.outer-container{
+				position: absolute;
+				display: table;
+				width: 100%;
+				height: 100%;
+			}
+
+			.inner-container{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+
+			#tl-error-message{
+				display: inline-block;
+				padding: 0 5px 0 5px;
+				font-size: 24px;
+				color: #216eb9;
+				font-family: 'Lato', 'Open Sans', sans-serif;
+			}
+
+			img{
+				width: 100%;
+				max-width: 928px;
+			}
+
+			a{
+				color: #ff7c00;
+				text-decoration: none;
+			}
+
+			@media (max-width: 720px){
+				#tl-error-message{
+					font-size: 18px;
+				}
+			}
+
+			@media (max-width: 420px){
+				#tl-error-message{
+					font-size: 14px;
+				}
+			}
+
+			@-ms-viewport{
+				width: device-width;
+			}
+		</style>
+	</head>
+	<body id="tl-main-body">
+		<div class="outer-container">
+			<div class="inner-container">
+				<div id="tl-error-message">
+					<img alt="The page you're looking for can't be found" src="https://d3j0t7vrtr92dk.cloudfront.net/images/error404.png"/>
+					<p>
+					The page you're looking for can't be found					<br/>
+					<a href='https://nomad.talentlms.com/index'>Click here</a> to go home					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+404
+Started assert response ..... 
+================== END API TEST===============
